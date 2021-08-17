@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale="1.0>
+	<meta http-equiv="X-UA-Compatible" ,content="ie=edge">
+	<title>Burger-Menu</title>
+	<link rel="stylesheet" type="text/css" href="menu.css">
+        <style>
+            .add{
+                color:snow;
+                font-size:95%;
+                padding:1% 4.5%;
+                border-radius:12%;
+               background-color:#ff7720;
+               
+               float:right;
+                
+                font-family:bold;
+            } 
+            .add{
+                color:snow;
+                font-size:95%;
+                padding:1% 4.5%;
+                border-radius:12%;
+               background-color:#ff7720;
+               
+               float:right;
+                
+                font-weight:bold;
+            } 
+            .qty{
+                color:#ff7720;
+                font-style:oblique;
+                font-weight:bold;
+                
+            }
+            
+        </style>
+</head>
+<body>
+
+		<div class="wrapper">
+			<div class="title"> 
+				<h4><span>fresh food for good health</span><br>Burger-Menu</h4>
+
+			</div>
+			<div class="menu">
+				<div class="single-menu">
+					<img src="images/aloo.jpg" alt="">
+					<div class="menu-content">
+						<h4>Aloo Tikki Burger<span>Rs.59</span></h4>
+						<p>This burger is stuffed with 1 aloo tikki,onion,tomato and ketchup</p>
+					<form action="order1.jsp" method="post">
+                                            <div class="qty">
+                                Qty:<select class="dropdown" name="n1">
+                                    <option  value="89">1</option>
+                                    <option  value="179">2</option>
+                                    <option  value="269">3</option>
+                                    <option  value="359">4</option>
+                                </select>
+                                                <button name="n2" class="add" type="submit" value="Aloo Tikki">Add</button>
+                                            </div>
+                            </form>
+          
+            
+                                        </div>
+				</div>
+
+				<div class="single-menu">
+					<img src="images/schezwan.jpg" alt="">
+					<div class="menu-content">
+						<h4>Schezwan Burger<span>Rs.89</span></h4>
+						<p>This burger is stuffed with schezwan sauce,1 aloo tikki,tomato and ketchup</p>
+					<form action="order1.jsp" method="post">
+                                             <div class="qty">
+                                Qty:<select class="dropdown" name="n1">
+                                    <option  value="89">1</option>
+                                    <option  value="179">2</option>
+                                    <option  value="269">3</option>
+                                    <option  value="359">4</option>
+                                </select>
+                                                <button name="n2" class="add" type="submit" value="Schezwan Burger">Add</button>
+                                             </div>
+                            </form>
+                                        </div>
+				</div>
+
+				<div class="single-menu">
+					<img src="images/chickenb.jpg" alt="">
+					<div class="menu-content">
+						<h4>Chicken Burger<span>Rs.99</span></h4>
+						<p>This burger is stuffed with fresh chicken and Periperi sauce</p>
+                                               <form action="order1.jsp" method="post">
+                                                    <div class="qty">
+                                Qty:<select class="dropdown" name="n1">
+                                    <option  value="99">1</option>
+                                    <option  value="199">2</option>
+                                    <option  value="299">3</option>
+                                    <option  value="399">4</option>
+                                </select>
+                                                <button name="n2" class="add" type="submit" value="Chicken Burger">Add</button>
+                                                    </div>
+                            </form> 
+					</div>
+				</div>
+				<div class="single-menu">
+					<img src="images/veggie.jpg" alt="">
+					<div class="menu-content">
+                                   <h4>Veggie Burger<span>Rs.79</span></h4>
+						<p>This burger is stuffed with onion,capsicum,tomato,cabbage,periperi sauce,white sauce,1 allo tikki and mozerella chesse</p>
+					<form action="order1.jsp" method="post">
+                                             <div class="qty">
+                                Qty:<select class="dropdown" name="n1">
+                                    <option  value="79">1</option>
+                                    <option  value="159">2</option>
+                                    <option  value="239">3</option>
+                                    <option  value="359">4</option>
+                                </select>
+                                                <button name="n2" class="add" type="submit" value="Veggie Burger">Add</button>
+                                             </div>
+                            </form> 
+                                        </div>
+				</div>
+				<div class="single-menu">
+					<img src="images/combo1.jpg" alt="">
+					<div class="menu-content">
+						<h4>Junior Combo<span>Rs.299</span></h4>
+						<p>This combo has 2 aloo tikki burgers,2 mcpuffs,2 coldrinks,1 pack of French Fries and Ketchups</p>
+					<form action="order1.jsp" method="post">
+                                             <div class="qty">
+                                Qty:<select class="dropdown" name="n1">
+                                    <option  value="299">1</option>
+                                    <option  value="599">2</option>
+                                    <option  value="899">3</option>
+                                    <option  value="1199">4</option>
+                                </select>
+                                                <button name="n2" class="add" type="submit" value="Junior Combo">Add</button>
+                                             </div>
+                            </form> 
+                                        </div>
+				</div>
+				<div class="single-menu">
+					<img src="images/combo2.jpg" alt="">
+					<div class="menu-content">
+						<h4>King Combo<span>Rs.499</span></h4>
+						<p>This combo has 4 schewan burgers,4 mcpuffs,4 coldrinks,2 packs of French Fries and Ketchups</p>
+					<form action="order1.jsp" method="post">
+                                             <div class="qty">
+                                Qty:<select class="dropdown" name="n1">
+                                    <option  value="499">1</option>
+                                    <option  value="999">2</option>
+                                    <option  value="1499">3</option>
+                                    <option  value="1999">4</option>
+                                </select>
+                                                <button name="n2" class="add" type="submit" value="King Combo">Add</button>
+                                             </div>
+                            </form> 
+                                        </div>
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>
